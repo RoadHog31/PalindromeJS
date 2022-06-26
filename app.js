@@ -9,7 +9,7 @@ function isPalindrome(word) {
     while (left < right) {
 
         if (word[left] !== word[right]) return false
-        
+
         left++
         right--
     }
